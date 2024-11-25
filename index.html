@@ -446,6 +446,7 @@
         </div>
         <br>
         <br>
+
         <div class="row">
           <div class="col"></div>
           <div class="col-8 d-flex justify-content-center">
@@ -453,6 +454,7 @@
           </div>
           <div class="col"></div>
         </div>
+        <br>
         <div class="row">
           <div class="col"></div>
           <div class="col-8 d-flex justify-content-center">
@@ -460,14 +462,73 @@
           </div>
           <div class="col"></div>
         </div>
+        <br>
         <div class="row">
           <div class="col"></div>       
           <div class="col-8 d-flex justify-content-center">
             <label for="hora">Selecciona una hora:</label>
-            <input type="time" id="hora" name="hora">
+            <input type="time" id="hora" name="hora" min="00:00" max="24:00">
           </div>       
           <div class="col"></div>       
         </div>
+        <br>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-8 d-flex justify-content-center">
+            <h2>Paso 2: Presione el boton "Generar Iteracion"</h2>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col col-8 justify-content-center">
+            <table class="Datos table table-striped-columns" style="width: 80%; margin: 0 auto;">
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">Nro Movil</th>
+                  <th scope="col">Nro Aleatorio</th>
+                  <th scope="col">Intervalo de Llegada (min)</th>
+                  <th scope="col">Hora de Llegada</th>
+                  <th scope="col">Tiempo Espera (min)</th>
+                  <th scope="col">Hora de Ingreso al Servidor</th>
+                  <th scope="col">Nro Aleatorio</th>
+                  <th scope="col">Tiempo Servicio (min)</th>
+                  <th scope="col">Hora de Salida del Servidor</th>
+                  <th scope="col">Tiempo en el Sistema (min)</th>
+                </tr>
+              </thead>
+              <tbody class="tabla">
+                <tr class="text-center">
+                  <td class="col1"></td>
+                  <td class="col2"></td>
+                  <td class="col3"></td>
+                  <td class="col4"></td>
+                  <td class="col5"></td>
+                  <td class="col6"></td>
+                  <td class="col7"></td>
+                  <td class="col8"></td>
+                  <td class="col9"></td>
+                  <td class="col10"></td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <br>
+          </div>
+          <div class="col"></div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col"></div>       
+          <div class="col-8 d-flex justify-content-center">
+            <button type="button" id="boton" class="btn btn-primary">Generar Iteracion</button>
+          </div>       
+          <div class="col"></div>       
+        </div>
+        <br>
+        <br>
       </div>
     <script src="program.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
