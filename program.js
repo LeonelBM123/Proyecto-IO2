@@ -83,6 +83,7 @@ horaInicial.addEventListener('change',() => {
 const tabla = document.querySelector(".tabla");
 const boton = document.querySelector("#boton");
 boton.addEventListener('click',()=>{
+    NroAuto++;
     const tr = document.createElement('tr');
     var td = document.createElement('td');
     td.textContent = NroAuto;
